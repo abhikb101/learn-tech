@@ -1,0 +1,56 @@
+export const emojis = [
+  "🌱",
+  "🌿",
+  "🌳",
+  "🌴",
+  "🌵",
+  "🌾",
+  "🌷",
+  "🌸",
+  "🌹",
+  "🌺",
+  "🌻",
+  "🌼",
+  "🍀",
+  "🍁",
+  "🍂",
+  "🍃",
+  "🍄",
+  "🌰",
+  "🦋",
+  "🐛",
+  "🐝",
+  "🐞",
+  "🦗",
+  "🕷️",
+  "🦂",
+  "🦟",
+  "🦠",
+  "🌍",
+  "🌎",
+  "🌏",
+  "🌈",
+  "☀️",
+  "🌙",
+  "⭐",
+  "🌊",
+  "🏔️",
+];
+
+export const userEmojis = emojis.slice(0, 12);
+
+export const leaderboardData = [
+  { id: 1, name: "Alice", gems: 500, trophies: 10 },
+  { id: 2, name: "Bob", gems: 450, trophies: 8 },
+  { id: 3, name: "Charlie", gems: 400, trophies: 7 },
+  { id: 4, name: "David", gems: 350, trophies: 6 },
+  { id: 5, name: "Eve", gems: 300, trophies: 5 },
+];
+
+export const notifications = [
+  { id: 1, user: "Alice", action: "completed a 7-day streak", emoji: "🔥" },
+  { id: 2, user: "Bob", action: "earned the Early Bird trophy", emoji: "🏆" },
+  { id: 3, user: "Charlie", action: "planted a new tree", emoji: "🌳" },
+  { id: 4, user: "David", action: "reached 1000 gems", emoji: "💎" },
+  { id: 5, user: "Eve", action: "completed all daily habits", emoji: "✅" },
+];
